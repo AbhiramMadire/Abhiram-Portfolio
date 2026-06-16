@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abhiram Madire | Data Science & Statistics Portfolio</title>
+  <meta
+    name="description"
+    content="Portfolio website for Abhiram Madire, a Data Science and Statistics student at UCF focused on programming, AI, analytics, and community leadership."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Loading Screen -->
+  <div class="loading-screen" aria-hidden="true">
+    <div class="loading-ring"></div>
+    <p>Loading portfolio</p>
+  </div>
+
+  <!-- Background accents -->
+  <div class="bg-orb bg-orb-one" aria-hidden="true"></div>
+  <div class="bg-orb bg-orb-two" aria-hidden="true"></div>
+
+  <!-- Header / Navigation -->
+  <header class="site-header">
+    <nav class="navbar" aria-label="Primary">
+      <a class="brand" href="#home" aria-label="Abhiram Madire home">
+        <span class="brand-mark">AM</span>
+        <span class="brand-text">
+          <strong>Abhiram Madire</strong>
+          <small>Data Science • Statistics • AI</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="sr-only">Toggle navigation</span>
+      </button>
+
+      <div class="nav-menu" id="nav-menu">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">UCF Data Science & Statistics Student</p>
+        <h1>
+          Building thoughtful, data-driven experiences for
+          <span class="accent-gradient">software and AI teams.</span>
+        </h1>
+        <p class="hero-description">
+          I’m Abhiram Madire, a Data Science and Statistics student at the University of Central Florida with a strong foundation in programming, statistical analysis, and artificial intelligence. I enjoy turning structured thinking into useful analysis, clear communication, and practical tools.
+        </p>
+
+        <div class="typing-wrap" aria-live="polite">
+          <span class="typing-label">Focused on</span>
+          <span class="typing-text" id="typing-text"></span>
+        </div>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View Projects</a>
+          <a class="btn btn-secondary" id="resume-download" href="#" download>Download Resume</a>
+        </div>
+
+        <div class="social-links">
+          <a href="mailto:madire.abhiram@googlemail.com">Email</a>
+          <a href="tel:+19044848439">Phone</a>
+          <span class="social-chip">LinkedIn: Abhiram Madire</span>
+        </div>
+      </div>
+
+      <div class="hero-panel reveal">
+        <div class="hero-card glass-card">
+          <div class="status-pill">Open to internships</div>
+          <div class="hero-card-grid">
+            <div>
+              <span class="stat-value">2</span>
+              <span class="stat-label">Degrees in progress</span>
+            </div>
+            <div>
+              <span class="stat-value">4</span>
+              <span class="stat-label">Core technical areas</span>
+            </div>
+            <div>
+              <span class="stat-value">3+</span>
+              <span class="stat-label">Community roles</span>
+            </div>
+            <div>
+              <span class="stat-value">AI</span>
+              <span class="stat-label">Research interest</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-mini glass-card">
+          <p class="mini-label">Current focus</p>
+          <p class="mini-copy">
+            Analytics, prompt engineering, programming fundamentals, and building a strong internship-ready profile.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">About Me</p>
+        <h2>Analytical, communication-driven, and curious about practical AI.</h2>
+      </div>
+      <div class="about-grid">
+        <article class="glass-card reveal">
+          <p>
+            I am a student at UCF pursuing both a Bachelor of Science in Data Science and a Bachelor of Science in Statistics. My background combines programming, statistical methods, and AI-related coursework with experience in research, tutoring, volunteer communications, and student leadership.
+          </p>
+        </article>
+        <article class="glass-card reveal">
+          <p>
+            I care about working clearly, learning quickly, and producing outcomes that are useful to others. Whether I am analyzing prompts, helping peers, or supporting community outreach, I try to make complex ideas easier to understand and act on.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Skills</p>
+        <h2>Technical foundations and communication strengths.</h2>
+      </div>
+
+      <div class="skills-layout">
+        <article class="glass-card reveal">
+          <h3>Technical Skills</h3>
+          <div class="skill-list">
+            <div class="skill-item" data-level="80">
+              <div class="skill-top"><span>C</span><span class="skill-percent">80%</span></div>
+              <div class="skill-bar"><span></span></div>
+            </div>
+            <div class="skill-item" data-level="55">
+              <div class="skill-top"><span>Python (basic)</span><span class="skill-percent">55%</span></div>
+              <div class="skill-bar"><span></span></div>
+            </div>
+            <div class="skill-item" data-level="50">
+              <div class="skill-top"><span>SQL (basic)</span><span class="skill-percent">50%</span></div>
+              <div class="skill-bar"><span></span></div>
+            </div>
+            <div class="skill-item" data-level="75">
+              <div class="skill-top"><span>Microsoft Excel</span><span class="skill-percent">75%</span></div>
+              <div class="skill-bar"><span></span></div>
+            </div>
+            <div class="skill-item" data-level="70">
+              <div class="skill-top"><span>AI Tools</span><span class="skill-percent">70%</span></div>
+              <div class="skill-bar"><span></span></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="glass-card reveal">
+          <h3>Strengths</h3>
+          <div class="chip-grid">
+            <span class="chip">Communication</span>
+            <span class="chip">Presentation</span>
+            <span class="chip">Analytical Thinking</span>
+            <span class="chip">Problem Solving</span>
+            <span class="chip">Critical Thinking</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section" id="experience">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Experience</p>
+        <h2>Research, leadership, and community contributions.</h2>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item glass-card reveal">
+          <div class="timeline-meta">
+            <span class="timeline-date">Spring 2026</span>
+            <span class="timeline-location">ENC1102 — UCF</span>
+          </div>
+          <h3>Prompt Engineering Research Study</h3>
+          <p>
+            Designed and conducted a primary research study analyzing how prompt structure affects AI response quality using Google NotebookLM. Compared baseline, role-based, and structured exam-context prompts across eight qualitative coding categories and produced a coded data table with written analysis showing that structured, role-based prompts yielded more useful exam-prep responses.
+          </p>
+        </article>
+
+        <article class="timeline-item glass-card reveal">
+          <div class="timeline-meta">
+            <span class="timeline-date">2024 – Present</span>
+            <span class="timeline-location">Jacksonville & St. Augustine</span>
+          </div>
+          <h3>Volunteer & Communications Contributor, Hindu Swayamsevak Sangh</h3>
+          <p>
+            Drafted and coordinated community outreach communications for one of the nation's largest Hindu-American organizations. Contributed to chapter-level event coordination and inter-chapter correspondence across St. Johns County and Jacksonville.
+          </p>
+        </article>
+
+        <article class="timeline-item glass-card reveal">
+          <div class="timeline-meta">
+            <span class="timeline-date">2023 – 2025</span>
+            <span class="timeline-location">Beachside High School</span>
+          </div>
+          <h3>Link Crew Leader</h3>
+          <p>
+            Selected through a competitive application process to mentor incoming freshmen in a nationally recognized transition program operating in more than 3,700 schools. Supported academic and social adjustment, helped students connect with teachers and counselors, and guided small groups in math and science.
+          </p>
+        </article>
+
+        <article class="timeline-item glass-card reveal">
+          <div class="timeline-meta">
+            <span class="timeline-date">2023 – 2024</span>
+            <span class="timeline-location">Community Clubhouse, St. Johns County</span>
+          </div>
+          <h3>Volunteer Chess Tutor</h3>
+          <p>
+            Taught chess fundamentals and strategic thinking to 30–40 students from three surrounding communities. Built structured sessions for learners of varying skill levels and helped students strengthen analytical reasoning and problem-solving habits through guided gameplay and post-game analysis.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Projects</p>
+        <h2>Selected work showing research thinking and practical coding.</h2>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card glass-card reveal">
+          <div class="project-tag">Research</div>
+          <h3>Prompt Engineering Research Study</h3>
+          <p>
+            A primary research project examining how prompt structure influences AI output quality. The study compared prompt styles, coded response usefulness across eight categories, and identified structured role-based prompting as the strongest approach for exam-prep support.
+          </p>
+          <ul>
+            <li>Used Google NotebookLM for analysis</li>
+            <li>Compared three prompt types</li>
+            <li>Produced a coded qualitative table</li>
+          </ul>
+        </article>
+
+        <article class="project-card glass-card reveal">
+          <div class="project-tag">Python</div>
+          <h3>Mortgage Calculator</h3>
+          <p>
+            A Python-based mortgage calculator that computes monthly payments from home price, down payment, interest rate, and loan term inputs. The project also compares payment strategies and shows amortization breakdowns across the life of the loan.
+          </p>
+          <ul>
+            <li>Monthly payment calculations</li>
+            <li>Bi-weekly and extra principal comparisons</li>
+            <li>Amortization modeling</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section" id="education">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Education</p>
+        <h2>Current academic path and relevant coursework.</h2>
+      </div>
+
+      <div class="education-grid">
+        <article class="glass-card reveal">
+          <h3>University of Central Florida</h3>
+          <p class="meta-line">Orlando, FL · Expected May 2029</p>
+          <p>Bachelor of Science in Data Science | Bachelor of Science in Statistics</p>
+          <p class="muted">Relevant Coursework: Introduction to Programming with C (COP3223C), Computer Science I (COP3502C), Statistical Methods I (STA2023), Statistical Methods II (STA4163)</p>
+        </article>
+
+        <article class="glass-card reveal">
+          <h3>Beachside High School</h3>
+          <p class="meta-line">St. Johns, FL · May 2025</p>
+          <p>High School Diploma | Unweighted GPA: 3.8/4.0</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section class="section" id="certifications">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Certifications & Coursework</p>
+        <h2>Professional learning focused on AI and data analytics.</h2>
+      </div>
+
+      <div class="cert-grid">
+        <article class="cert-card glass-card reveal">
+          <h3>AI for Work and Life</h3>
+          <p>University of North Florida (UNF) · 2025</p>
+          <span>Completed a professional development course on applying artificial intelligence tools in academic and workplace contexts.</span>
+        </article>
+
+        <article class="cert-card glass-card reveal">
+          <h3>ChatGPT: Master AI Tools to Supercharge Productivity</h3>
+          <p>Coursera · 2026</p>
+          <span>Completed a specialization focused on leveraging AI productivity tools effectively across professional and academic workflows.</span>
+        </article>
+
+        <article class="cert-card glass-card reveal">
+          <h3>Google Data Analytics Professional Certificate</h3>
+          <p>Google · In Progress</p>
+          <span>Covering data analysis, visualization, and SQL through hands-on projects toward Google's industry-recognized certificate.</span>
+        </article>
+
+        <article class="cert-card glass-card reveal">
+          <h3>Prompt Engineering Masterclass: From Beginner to Advanced</h3>
+          <p>Coursera · In Progress</p>
+          <span>Specialization covering advanced prompt design techniques for large language models across real-world applications.</span>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Let’s connect about internships, AI, analytics, or collaboration.</h2>
+      </div>
+
+      <div class="contact-grid">
+        <article class="glass-card reveal contact-card">
+          <h3>Reach Out</h3>
+          <p>Open to internship opportunities, technical projects, and collaborative work.</p>
+          <div class="contact-links">
+            <a href="mailto:madire.abhiram@googlemail.com">madire.abhiram@googlemail.com</a>
+            <a href="tel:+19044848439">+1 (904) 484-8439</a>
+            <span>LinkedIn: Abhiram Madire</span>
+          </div>
+        </article>
+
+        <form class="glass-card reveal contact-form" id="contact-form">
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="you@example.com" required />
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="5" placeholder="Write a message" required></textarea>
+          </label>
+          <button class="btn btn-primary" type="submit">Send Message</button>
+          <p class="form-note">This is a front-end contact form UI for portfolio presentation.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <button class="back-to-top" type="button" aria-label="Back to top">
+    ↑
+  </button>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
